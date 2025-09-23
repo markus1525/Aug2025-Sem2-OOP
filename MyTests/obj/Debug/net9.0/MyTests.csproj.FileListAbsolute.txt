@@ -1,0 +1,7 @@
+/Users/minthukyawkhaung/MyTests/obj/Debug/net9.0/MyTests.csproj.AssemblyReference.cache
+/Users/minthukyawkhaung/MyTests/obj/Debug/net9.0/MyTests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/minthukyawkhaung/MyTests/obj/Debug/net9.0/MyTests.gentestingplatformentrypointinputcache.cache
+/Users/minthukyawkhaung/MyTests/obj/Debug/net9.0/MyTests.genautoregisteredextensionsinputcache.cache
+/Users/minthukyawkhaung/MyTests/obj/Debug/net9.0/MyTests.AssemblyInfoInputs.cache
+/Users/minthukyawkhaung/MyTests/obj/Debug/net9.0/MyTests.AssemblyInfo.cs
+/Users/minthukyawkhaung/MyTests/obj/Debug/net9.0/MyTests.csproj.CoreCompileInputs.cache

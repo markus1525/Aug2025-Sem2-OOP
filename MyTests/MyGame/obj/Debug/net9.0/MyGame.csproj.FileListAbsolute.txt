@@ -1,0 +1,17 @@
+/Users/minthukyawkhaung/MyTests/MyGame/bin/Debug/net9.0/MyGame
+/Users/minthukyawkhaung/MyTests/MyGame/bin/Debug/net9.0/MyGame.deps.json
+/Users/minthukyawkhaung/MyTests/MyGame/bin/Debug/net9.0/MyGame.runtimeconfig.json
+/Users/minthukyawkhaung/MyTests/MyGame/bin/Debug/net9.0/MyGame.dll
+/Users/minthukyawkhaung/MyTests/MyGame/bin/Debug/net9.0/MyGame.pdb
+/Users/minthukyawkhaung/MyTests/MyGame/bin/Debug/net9.0/SplashKitSDK.dll
+/Users/minthukyawkhaung/MyTests/MyGame/obj/Debug/net9.0/MyGame.csproj.AssemblyReference.cache
+/Users/minthukyawkhaung/MyTests/MyGame/obj/Debug/net9.0/MyGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/minthukyawkhaung/MyTests/MyGame/obj/Debug/net9.0/MyGame.AssemblyInfoInputs.cache
+/Users/minthukyawkhaung/MyTests/MyGame/obj/Debug/net9.0/MyGame.AssemblyInfo.cs
+/Users/minthukyawkhaung/MyTests/MyGame/obj/Debug/net9.0/MyGame.csproj.CoreCompileInputs.cache
+/Users/minthukyawkhaung/MyTests/MyGame/obj/Debug/net9.0/MyGame.csproj.Up2Date
+/Users/minthukyawkhaung/MyTests/MyGame/obj/Debug/net9.0/MyGame.dll
+/Users/minthukyawkhaung/MyTests/MyGame/obj/Debug/net9.0/refint/MyGame.dll
+/Users/minthukyawkhaung/MyTests/MyGame/obj/Debug/net9.0/MyGame.pdb
+/Users/minthukyawkhaung/MyTests/MyGame/obj/Debug/net9.0/MyGame.genruntimeconfig.cache
+/Users/minthukyawkhaung/MyTests/MyGame/obj/Debug/net9.0/ref/MyGame.dll

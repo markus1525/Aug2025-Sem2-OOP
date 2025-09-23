@@ -1,0 +1,14 @@
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/lecture/CollectionsDemo/CollectionsDemo/bin/Debug/netcoreapp9.0/CollectionsDemo
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/lecture/CollectionsDemo/CollectionsDemo/bin/Debug/netcoreapp9.0/CollectionsDemo.deps.json
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/lecture/CollectionsDemo/CollectionsDemo/bin/Debug/netcoreapp9.0/CollectionsDemo.runtimeconfig.json
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/lecture/CollectionsDemo/CollectionsDemo/bin/Debug/netcoreapp9.0/CollectionsDemo.dll
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/lecture/CollectionsDemo/CollectionsDemo/bin/Debug/netcoreapp9.0/CollectionsDemo.pdb
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/lecture/CollectionsDemo/CollectionsDemo/obj/Debug/netcoreapp9.0/CollectionsDemo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/lecture/CollectionsDemo/CollectionsDemo/obj/Debug/netcoreapp9.0/CollectionsDemo.AssemblyInfoInputs.cache
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/lecture/CollectionsDemo/CollectionsDemo/obj/Debug/netcoreapp9.0/CollectionsDemo.AssemblyInfo.cs
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/lecture/CollectionsDemo/CollectionsDemo/obj/Debug/netcoreapp9.0/CollectionsDemo.csproj.CoreCompileInputs.cache
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/lecture/CollectionsDemo/CollectionsDemo/obj/Debug/netcoreapp9.0/CollectionsDemo.dll
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/lecture/CollectionsDemo/CollectionsDemo/obj/Debug/netcoreapp9.0/refint/CollectionsDemo.dll
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/lecture/CollectionsDemo/CollectionsDemo/obj/Debug/netcoreapp9.0/CollectionsDemo.pdb
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/lecture/CollectionsDemo/CollectionsDemo/obj/Debug/netcoreapp9.0/CollectionsDemo.genruntimeconfig.cache
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/lecture/CollectionsDemo/CollectionsDemo/obj/Debug/netcoreapp9.0/ref/CollectionsDemo.dll

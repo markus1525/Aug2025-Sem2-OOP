@@ -1,0 +1,14 @@
+/Users/minthukyawkhaung/MyTests/MyNewProject/bin/Debug/net9.0/MyNewProject
+/Users/minthukyawkhaung/MyTests/MyNewProject/bin/Debug/net9.0/MyNewProject.deps.json
+/Users/minthukyawkhaung/MyTests/MyNewProject/bin/Debug/net9.0/MyNewProject.runtimeconfig.json
+/Users/minthukyawkhaung/MyTests/MyNewProject/bin/Debug/net9.0/MyNewProject.dll
+/Users/minthukyawkhaung/MyTests/MyNewProject/bin/Debug/net9.0/MyNewProject.pdb
+/Users/minthukyawkhaung/MyTests/MyNewProject/obj/Debug/net9.0/MyNewProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/minthukyawkhaung/MyTests/MyNewProject/obj/Debug/net9.0/MyNewProject.AssemblyInfoInputs.cache
+/Users/minthukyawkhaung/MyTests/MyNewProject/obj/Debug/net9.0/MyNewProject.AssemblyInfo.cs
+/Users/minthukyawkhaung/MyTests/MyNewProject/obj/Debug/net9.0/MyNewProject.csproj.CoreCompileInputs.cache
+/Users/minthukyawkhaung/MyTests/MyNewProject/obj/Debug/net9.0/MyNewProject.dll
+/Users/minthukyawkhaung/MyTests/MyNewProject/obj/Debug/net9.0/refint/MyNewProject.dll
+/Users/minthukyawkhaung/MyTests/MyNewProject/obj/Debug/net9.0/MyNewProject.pdb
+/Users/minthukyawkhaung/MyTests/MyNewProject/obj/Debug/net9.0/MyNewProject.genruntimeconfig.cache
+/Users/minthukyawkhaung/MyTests/MyNewProject/obj/Debug/net9.0/ref/MyNewProject.dll

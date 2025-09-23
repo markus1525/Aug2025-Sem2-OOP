@@ -1,0 +1,14 @@
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/CounterTask/CounterTask/obj/Debug/net9.0/CounterTask.GeneratedMSBuildEditorConfig.editorconfig
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/CounterTask/CounterTask/obj/Debug/net9.0/CounterTask.AssemblyInfoInputs.cache
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/CounterTask/CounterTask/obj/Debug/net9.0/CounterTask.AssemblyInfo.cs
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/CounterTask/CounterTask/obj/Debug/net9.0/CounterTask.csproj.CoreCompileInputs.cache
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/CounterTask/CounterTask/bin/Debug/net9.0/CounterTask
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/CounterTask/CounterTask/bin/Debug/net9.0/CounterTask.deps.json
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/CounterTask/CounterTask/bin/Debug/net9.0/CounterTask.runtimeconfig.json
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/CounterTask/CounterTask/bin/Debug/net9.0/CounterTask.dll
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/CounterTask/CounterTask/bin/Debug/net9.0/CounterTask.pdb
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/CounterTask/CounterTask/obj/Debug/net9.0/CounterTask.dll
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/CounterTask/CounterTask/obj/Debug/net9.0/refint/CounterTask.dll
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/CounterTask/CounterTask/obj/Debug/net9.0/CounterTask.pdb
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/CounterTask/CounterTask/obj/Debug/net9.0/CounterTask.genruntimeconfig.cache
+/Users/minthukyawkhaung/Documents/Sem2/OOP/week2/CounterTask/CounterTask/obj/Debug/net9.0/ref/CounterTask.dll
