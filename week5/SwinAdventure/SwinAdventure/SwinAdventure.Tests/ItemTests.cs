@@ -28,7 +28,7 @@ namespace SwinAdventure.Tests
         [Test]
         public void TestShortDescription()
         {
-            // Test short description format: "a name (first id)"
+            // Test short description format: "name (first id)"
             Assert.That(_testItem.ShortDescription, Is.EqualTo("a bronze sword (sword)"));
         }
 
@@ -36,7 +36,7 @@ namespace SwinAdventure.Tests
         public void TestFullDescription()
         {
             // Test that full description returns the item's description
-            Assert.That(_testItem.LongDescription, Is.EqualTo("A short sword cast from bronze"));
+            Assert.That(_testItem.FullDescription, Is.EqualTo("a bronze sword (sword) - A short sword cast from bronze"));
         }
 
         [Test]
