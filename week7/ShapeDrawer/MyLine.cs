@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using SplashKitSDK;
 
 namespace ShapeDrawer;
@@ -61,5 +62,22 @@ public class MyLine : Shape
         // Adding a small tolerance for easier selection
         Line line = SplashKit.LineFrom(X, Y, _endX, _endY);
         return SplashKit.PointOnLine(pt, line, 5.0f);
+    }
+
+    // Step 8: Override SaveTo method
+    public override void SaveTo(StreamWriter writer)
+    {
+        writer.WriteLine("Line");
+        base.SaveTo(writer);
+        writer.WriteLine(EndX);
+        writer.WriteLine(EndY);
+    }
+
+    // Step 15: Override LoadFrom method
+    public override void LoadFrom(StreamReader reader)
+    {
+        base.LoadFrom(reader);
+        EndX = reader.ReadSingle();
+        EndY = reader.ReadSingle();
     }
 }

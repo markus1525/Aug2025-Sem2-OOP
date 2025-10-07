@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using SplashKitSDK;
 
 namespace ShapeDrawer;
@@ -44,7 +45,7 @@ public class MyRectangle : Shape
         {
             DrawOutline();
         }
-        SplashKit.FillRectangle(Color, X, Y, _width, _height);  
+        SplashKit.FillRectangle(Color, X, Y, _width, _height);
     }
 
     // Override DrawOutline method
@@ -59,5 +60,22 @@ public class MyRectangle : Shape
     {
         return pt.X >= X && pt.X <= (X + _width) &&
                pt.Y >= Y && pt.Y <= (Y + _height);
+    }
+
+    // Step 6: Override SaveTo method
+    public override void SaveTo(StreamWriter writer)
+    {
+        writer.WriteLine("Rectangle");
+        base.SaveTo(writer);
+        writer.WriteLine(Width);
+        writer.WriteLine(Height);
+    }
+
+    // Step 14: Override LoadFrom method
+    public override void LoadFrom(StreamReader reader)
+    {
+        base.LoadFrom(reader);
+        Width = reader.ReadInteger();
+        Height = reader.ReadInteger();
     }
 }

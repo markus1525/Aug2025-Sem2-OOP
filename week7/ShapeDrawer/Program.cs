@@ -27,27 +27,59 @@ public class Program
         // Number of parallel lines (last digit of student ID is 1, so X=1)
         int parallelLines = 1;
 
+        // Step 9: File path for saving/loading - 
+        string filePath = "/Users/minthukyawkhaung/Desktop/TestDrawing.txt"; // Mac
+        //string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "TestDrawing.txt"); //Cross-platform
+
         do
         {
             SplashKit.ProcessEvents();
             SplashKit.ClearScreen();
 
-            // Step 8.4: Check for R key to select Rectangle
+            // Check for R key to select Rectangle
             if (SplashKit.KeyTyped(KeyCode.RKey))
             {
                 kindToAdd = ShapeKind.Rectangle;
             }
 
-            // Step 8.4: Check for C key to select Circle
+            // Check for C key to select Circle
             if (SplashKit.KeyTyped(KeyCode.CKey))
             {
                 kindToAdd = ShapeKind.Circle;
             }
 
-            // Step 26: Check for L key to select Line
+            // Check for L key to select Line
             if (SplashKit.KeyTyped(KeyCode.LKey))
             {
                 kindToAdd = ShapeKind.Line;
+            }
+
+            // Step 9: Check for S key to save
+            if (SplashKit.KeyTyped(KeyCode.SKey))
+            {
+                try
+                {
+                    myDrawing.Save(filePath);
+                    Console.WriteLine("Drawing saved successfully to: " + filePath);
+                }
+                catch (Exception e)
+                {
+                    Console.Error.WriteLine("Error saving file: {0}", e.Message);
+                }
+            }
+
+            // Step 16: Check for O key to open/load
+            if (SplashKit.KeyTyped(KeyCode.OKey))
+            {
+                try
+                {
+                    myDrawing.Load(filePath);
+                    Console.WriteLine("Drawing loaded successfully from: " + filePath);
+                }
+                catch (Exception e)
+                {
+                    Console.Error.WriteLine("Error loading file: {0}", e.Message);
+                }
             }
 
             // Check if left mouse button is clicked
@@ -70,7 +102,7 @@ public class Program
                 }
                 else  // Line
                 {
-                    // Step 26: Draw parallelLines number of lines at the same time
+                    // Draw parallelLines number of lines at the same time
                     for (int i = 0; i < parallelLines; i++)
                     {
                         Shape lineShape = new MyLine(Color.Red, mouseX, mouseY + (i * 10), mouseX + 100, mouseY + (i * 10));
@@ -81,7 +113,7 @@ public class Program
                 // Add the shape to the drawing
                 if (myShape != null)
                 {
-                    // Step 9: Fix code duplication - set position once for all shapes
+                    // Fix code duplication - set position once for all shapes
                     myShape.X = mouseX;
                     myShape.Y = mouseY;
                     myDrawing.AddShape(myShape);

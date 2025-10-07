@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using SplashKitSDK;
 
 namespace ShapeDrawer;
@@ -54,4 +55,20 @@ public abstract class Shape
     public abstract void Draw();
     public abstract void DrawOutline();
     public abstract bool IsAt(Point2D pt);
+
+    // Step 5: Virtual SaveTo method - can be overridden by derived classes
+    public virtual void SaveTo(StreamWriter writer)
+    {
+        writer.WriteColor(Color);
+        writer.WriteLine(X);
+        writer.WriteLine(Y);
+    }
+
+    // Step 13: Virtual LoadFrom method - can be overridden by derived classes
+    public virtual void LoadFrom(StreamReader reader)
+    {
+        Color = reader.ReadColor();
+        X = reader.ReadSingle();
+        Y = reader.ReadSingle();
+    }
 }

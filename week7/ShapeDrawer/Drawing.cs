@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using SplashKitSDK;
 
 namespace ShapeDrawer
@@ -86,6 +87,67 @@ namespace ShapeDrawer
         public void RemoveShape(Shape s)
         {
             _shapes.Remove(s);
+        }
+
+        // Step 4,31: Save method to save drawing to file
+        public void Save(string filename)
+        {
+            StreamWriter writer = new StreamWriter(filename);
+            
+            try
+            {
+                writer.WriteColor(Background);
+                writer.WriteLine(ShapeCount);
+                foreach (Shape s in _shapes)
+                {
+                    s.SaveTo(writer);
+                }
+            }
+            finally
+            {
+                writer.Close();
+            }
+        }
+
+        // Step 1,30: Load method to load drawing from file
+        public void Load(string filename)
+        {
+            StreamReader reader = new StreamReader(filename);
+            string? kind;
+            Shape? s;
+
+            try
+            {
+                Background = reader.ReadColor();
+                int count = reader.ReadInteger();
+                _shapes.Clear();
+
+                for (int i = 0; i < count; i++)
+                {
+                    kind = reader.ReadLine();
+                    switch (kind)
+                    {
+                        case "Rectangle":
+                            s = new MyRectangle();
+                            break;
+                        case "Circle":
+                            s = new MyCircle();
+                            break;
+                        case "Line":
+                            s = new MyLine();
+                            break;
+                        default:
+                            throw new InvalidDataException("Unknown shape kind: " + kind); // Step 28: Handle unknown shape kind
+                    }
+
+                    s.LoadFrom(reader);
+                    AddShape(s);
+                }
+            }
+            finally
+            {
+                reader.Close();
+            }
         }
     }
 }

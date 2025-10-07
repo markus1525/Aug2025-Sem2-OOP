@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week6/before/ShapeDrawer/ShapeDrawer.csproj",
+      "projectUniqueName": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week7/ShapeDrawer/ShapeDrawer.csproj",
       "projectName": "ShapeDrawer",
-      "projectPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week6/before/ShapeDrawer/ShapeDrawer.csproj",
+      "projectPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week7/ShapeDrawer/ShapeDrawer.csproj",
       "packagesPath": "/Users/minthukyawkhaung/.nuget/packages/",
-      "outputPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week6/before/ShapeDrawer/obj/",
+      "outputPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week7/ShapeDrawer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/minthukyawkhaung/.nuget/NuGet/NuGet.Config"

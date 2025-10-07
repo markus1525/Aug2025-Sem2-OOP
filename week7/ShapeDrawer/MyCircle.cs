@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using SplashKitSDK;
 
 namespace ShapeDrawer;
@@ -51,5 +52,20 @@ public class MyCircle : Shape
     {
         // Check if the point is within the circle using SplashKit's helper method
         return SplashKit.PointInCircle(pt, SplashKit.CircleAt(X, Y, _radius));
+    }
+
+    // Step 7: Override SaveTo method
+    public override void SaveTo(StreamWriter writer)
+    {
+        writer.WriteLine("Circle");
+        base.SaveTo(writer);
+        writer.WriteLine(Radius);
+    }
+
+    // Step 15: Override LoadFrom method
+    public override void LoadFrom(StreamReader reader)
+    {
+        base.LoadFrom(reader);
+        Radius = reader.ReadInteger();
     }
 }
