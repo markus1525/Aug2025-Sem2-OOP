@@ -4,7 +4,7 @@ using SwinAdventure;
 namespace SwinAdventure.Tests
 {
     [TestFixture]
-    public class IdentifiableObjectTests
+    public class IdentifiableObjectTest
     {
         private IdentifiableObject _testObject;
         private string _studentID = "105684881";

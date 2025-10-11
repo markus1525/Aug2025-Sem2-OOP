@@ -826,11 +826,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week5/SwinAdventure/SwinAdventure/SwinAdventure.Tests/SwinAdventure.Tests.csproj",
+      "projectUniqueName": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week8/SwinAdventure/SwinAdventure/SwinAdventure.Tests/SwinAdventure.Tests.csproj",
       "projectName": "SwinAdventure.Tests",
-      "projectPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week5/SwinAdventure/SwinAdventure/SwinAdventure.Tests/SwinAdventure.Tests.csproj",
+      "projectPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week8/SwinAdventure/SwinAdventure/SwinAdventure.Tests/SwinAdventure.Tests.csproj",
       "packagesPath": "/Users/minthukyawkhaung/.nuget/packages/",
-      "outputPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week5/SwinAdventure/SwinAdventure/SwinAdventure.Tests/obj/",
+      "outputPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week8/SwinAdventure/SwinAdventure/SwinAdventure.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/minthukyawkhaung/.nuget/NuGet/NuGet.Config"
@@ -845,8 +845,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/minthukyawkhaung/Documents/Sem2/OOP/week5/SwinAdventure/SwinAdventure/SwinAdventure/SwinAdventure.csproj": {
-              "projectPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week5/SwinAdventure/SwinAdventure/SwinAdventure/SwinAdventure.csproj"
+            "/Users/minthukyawkhaung/Documents/Sem2/OOP/week8/SwinAdventure/SwinAdventure/SwinAdventure/SwinAdventure.csproj": {
+              "projectPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week8/SwinAdventure/SwinAdventure/SwinAdventure/SwinAdventure.csproj"
             }
           }
         }

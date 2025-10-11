@@ -58,17 +58,20 @@ namespace SwinAdventure
             return null;
         }
 
-        //Property
-        public string ItemList
+        //Property  
+        public string ItemList //Option 2 - separate list elements by a commas
         {
             get
             {
-                string result = "";
-                foreach (Item item in _items)
+                string list = "";
+                List<string> ItemDescriptionList = new List<string>();
+                foreach (Item itm in _items)
                 {
-                    result = result + "\t" + item.ShortDescription + "\n";
+                    ItemDescriptionList.Add(itm.ShortDescription);
                 }
-                return result;
+                list = String.Join(", ", ItemDescriptionList);
+
+                return list;
             }
         }
     }

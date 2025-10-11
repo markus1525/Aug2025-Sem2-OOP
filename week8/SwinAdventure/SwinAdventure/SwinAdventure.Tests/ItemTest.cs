@@ -4,7 +4,7 @@ using SwinAdventure;
 namespace SwinAdventure.Tests
 {
     [TestFixture]
-    public class ItemTests
+    public class ItemTest
     {
         private Item _testItem;
 

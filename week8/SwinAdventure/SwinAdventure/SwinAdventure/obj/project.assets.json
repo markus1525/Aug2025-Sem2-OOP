@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week5/SwinAdventure/SwinAdventure/SwinAdventure/SwinAdventure.csproj",
+      "projectUniqueName": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week8/SwinAdventure/SwinAdventure/SwinAdventure/SwinAdventure.csproj",
       "projectName": "SwinAdventure",
-      "projectPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week5/SwinAdventure/SwinAdventure/SwinAdventure/SwinAdventure.csproj",
+      "projectPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week8/SwinAdventure/SwinAdventure/SwinAdventure/SwinAdventure.csproj",
       "packagesPath": "/Users/minthukyawkhaung/.nuget/packages/",
-      "outputPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week5/SwinAdventure/SwinAdventure/SwinAdventure/obj/",
+      "outputPath": "/Users/minthukyawkhaung/Documents/Sem2/OOP/week8/SwinAdventure/SwinAdventure/SwinAdventure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/minthukyawkhaung/.nuget/NuGet/NuGet.Config"

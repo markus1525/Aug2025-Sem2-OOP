@@ -4,7 +4,7 @@ using SwinAdventure;
 namespace SwinAdventure.Tests
 {
     [TestFixture]
-    public class InventoryTests
+    public class InventoryTest
     {
         private Inventory _inventory;
         private Item _testItem1;
@@ -99,8 +99,8 @@ namespace SwinAdventure.Tests
             string itemList = _inventory.ItemList;
 
             // Assert
-            Assert.That(itemList.Contains("\tbronze sword (sword)"), Is.True, "Item list should contain tabbed sword description");
-            Assert.That(itemList.Contains("\tred gem (gem)"), Is.True, "Item list should contain tabbed gem description");
+            Assert.That(itemList.Contains("bronze sword (sword)"), Is.True, "Item list should contain tabbed sword description");
+            Assert.That(itemList.Contains("red gem (gem)"), Is.True, "Item list should contain tabbed gem description");
         }
     }
 }
