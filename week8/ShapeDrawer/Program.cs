@@ -31,7 +31,7 @@ public class Program
         string filePath = "/Users/minthukyawkhaung/Desktop/TestDrawing.txt"; // Mac
                                                                              //string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "TestDrawing.txt"); //Cross-platform
 
-        string statusMessage = ""; //verification task
+        string statusMessage = ""; //week 7 verification task
 
         do
         {
@@ -63,7 +63,7 @@ public class Program
                 {
                     myDrawing.Save(filePath);
                     Console.WriteLine("Drawing saved successfully to: " + filePath);
-                    statusMessage = "Drawing Saved to File."; //verification task (a)
+                    statusMessage = "Drawing Saved to File.";
                 }
                 catch (Exception e)
                 {
@@ -78,7 +78,7 @@ public class Program
                 {
                     myDrawing.Load(filePath);
                     Console.WriteLine("Drawing loaded successfully from: " + filePath);
-                    statusMessage = "Drawing Loaded from File."; //verification task (b)
+                    statusMessage = "Drawing Loaded from File.";
                 }
                 catch (Exception e)
                 {
@@ -123,7 +123,7 @@ public class Program
                     myDrawing.AddShape(myShape);
                 }
                 // Clear message when shape is added
-                statusMessage = ""; //verification task (c)
+                statusMessage = ""; //week 7 verification task
             }
 
             // Check if spacebar is pressed
@@ -155,13 +155,13 @@ public class Program
                     myDrawing.RemoveShape(shape);
                 }
                 // Clear message when shapes are deleted
-                statusMessage = ""; //verification task (c)
+                statusMessage = ""; //week 7 verification task
             }
 
             // Tell myDrawing to Draw
             myDrawing.Draw();
 
-            //verification task
+            //week 7 verification task
             // Display status message if not empty
             if (statusMessage != "")
             {
