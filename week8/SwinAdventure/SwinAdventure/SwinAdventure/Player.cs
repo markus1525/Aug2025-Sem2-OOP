@@ -39,19 +39,19 @@ namespace SwinAdventure
         {
             get
             {
-                return $"You are {Name}, {base.FullDescription}\n" +
+                return $"You are {Name} {base.FullDescription}\n" +
                 "You are carrying:\n" + _inventory.ItemList;
             }
         }
 
-        // Override SaveToFile to save player info including inventory
+        // Override SaveTo to save player info including inventory
         public override void SaveTo(StreamWriter writer)
         {
             base.SaveTo(writer);
             writer.WriteLine(_inventory.ItemList);
         }
 
-        // Override LoadFromFile to load player info and display it
+        // Override LoadFrom to load player info and display it
         public override void LoadFrom(StreamReader reader)
         {
             base.LoadFrom(reader);
